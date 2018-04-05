@@ -1,13 +1,13 @@
 package macowins;
 
 public class Promocion implements Estado {
-	public Float valorDeUsuario;
+	public Double valorDeUsuario;
 	
-	public Promocion(Float valorDeUsuario) {
+	public Promocion(Double valorDeUsuario) {
 		this.valorDeUsuario = valorDeUsuario; 
 	}
 	
-	public Float precioDeEstado(Float precioBase) {
+	public Double precioDeEstado(Double precioBase) {
 		return precioBase - this.valorDeUsuario;
 		
 	}

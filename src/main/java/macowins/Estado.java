@@ -2,6 +2,6 @@ package macowins;
 
 public interface Estado {
 	
-	public Float precioDeEstado(Float precioBase);
+	public Double precioDeEstado(Double precioBase);
 
 }

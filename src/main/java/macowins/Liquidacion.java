@@ -2,7 +2,7 @@ package macowins;
 
 public class Liquidacion {
 
-	public Float precioDeEstado(Float precioBase) {
+	public Double precioDeEstado(Double precioBase) {
 		return precioBase/2;
 	}
 }

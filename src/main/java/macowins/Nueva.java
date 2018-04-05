@@ -2,7 +2,7 @@ package macowins;
 
 public class Nueva implements Estado {
 	
-	public Float precioDeEstado(Float precioBase) {
+	public Double precioDeEstado(Double precioBase) {
 		return precioBase;
 	}
 }

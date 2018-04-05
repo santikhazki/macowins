@@ -1,21 +1,25 @@
 package macowins;
 
 public class Prenda {
-	public Float precioBase;
+	public Double precioBase;
 	public Estado estado;
 	public String tipo;
 	
-	public Prenda(Float precioBase, Estado estado, String tipo) { /*CONSTRUCTOR*/
+	public Prenda(Double precioBase, Estado estado, String tipo) { /*CONSTRUCTOR*/
 		this.precioBase = precioBase;
 		this.estado = estado;
 		this.tipo = tipo;
 	}
 	
-	public Float getPrecioBase() {
+	public Double getPrecioBase() {
 		return precioBase;
 	}
 	
-	public Float precioFinal() {
+	public Double precioFinal() {
 		return estado.precioDeEstado(this.precioBase);
+	}
+	
+	public Estado getEstado() {
+		return this.estado;
 	}
 }
